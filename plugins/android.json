@@ -1,0 +1,21 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "suxia.com.LStoragePlugin"
+    },
+    "LStorage": {
+      "PACKAGE_NAME": "suxia.com.LStoragePlugin"
+    },
+    "cordova-plugin-camera": {
+      "PACKAGE_NAME": "suxia.com.LStoragePlugin"
+    }
+  },
+  "dependent_plugins": {}
+}

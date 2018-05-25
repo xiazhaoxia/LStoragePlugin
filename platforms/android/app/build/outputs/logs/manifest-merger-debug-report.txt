@@ -1,0 +1,231 @@
+-- Merging decision tree log ---
+provider#org.apache.cordova.camera.FileProvider
+INJECTED from /Users/suxia/suxia-Cordova/LStoragePlugin/platforms/android/app/src/main/AndroidManifest.xml:44:9-52:20
+	android:grantUriPermissions
+		ADDED from /Users/suxia/suxia-Cordova/LStoragePlugin/platforms/android/app/src/main/AndroidManifest.xml:48:13-47
+	android:authorities
+		INJECTED from /Users/suxia/suxia-Cordova/LStoragePlugin/platforms/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/suxia/suxia-Cordova/LStoragePlugin/platforms/android/app/src/main/AndroidManifest.xml:46:13-60
+	android:exported
+		ADDED from /Users/suxia/suxia-Cordova/LStoragePlugin/platforms/android/app/src/main/AndroidManifest.xml:47:13-37
+	android:name
+		ADDED from /Users/suxia/suxia-Cordova/LStoragePlugin/platforms/android/app/src/main/AndroidManifest.xml:45:13-66
+manifest
+ADDED from /Users/suxia/suxia-Cordova/LStoragePlugin/platforms/android/app/src/main/AndroidManifest.xml:2:1-60:12
+INJECTED from /Users/suxia/suxia-Cordova/LStoragePlugin/platforms/android/app/src/main/AndroidManifest.xml:2:1-60:12
+INJECTED from /Users/suxia/suxia-Cordova/LStoragePlugin/platforms/android/app/src/main/AndroidManifest.xml:2:1-60:12
+INJECTED from /Users/suxia/suxia-Cordova/LStoragePlugin/platforms/android/app/src/main/AndroidManifest.xml:2:1-60:12
+MERGED from [com.android.support:design:26.1.0] /Users/suxia/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/1160c880966176ab9fd491764ea74533/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/suxia/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/27caf089bb11e2d8dd9dc779dd3d981f/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:transition:26.1.0] /Users/suxia/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/27c4c74c0bb0a23ed060bf14456f8342/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:26.1.0] /Users/suxia/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/e69a16dfff33d48dc66ddbbcdfa0bb7d/AndroidManifest.xml:17:1-31:12
+MERGED from [:CordovaLib] /Users/suxia/suxia-Cordova/LStoragePlugin/platforms/android/CordovaLib/build/intermediates/manifests/full/debug/AndroidManifest.xml:20:1-27:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] /Users/suxia/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.0.aar/98534946ed85e0766573d9908ed10265/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/suxia/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/074ded980d700cc35b0d045b4b20501c/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/suxia/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/f0c510901ac70376e6f05466e40953b8/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /Users/suxia/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/0e7768e5b27cbada063e33bf864ed77b/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/suxia/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/6c8b77c4775068a4f1c05981f3db69ff/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/suxia/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/9d7392d7b68a898e39bbdc7ab45df9c1/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/suxia/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/fbc867e35ed6e90e598cd0d34a318c87/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/suxia/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/4f411328395ac306fed45b8f3d8b173d/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:26.1.0] /Users/suxia/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/8820c151cc4369bfa4708341733a83b7/AndroidManifest.xml:17:1-31:12
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/suxia/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/cbcd8b5aecbe7d096c94b76428c27ea8/AndroidManifest.xml:17:1-30:12
+INJECTED from /Users/suxia/suxia-Cordova/LStoragePlugin/platforms/android/app/src/main/AndroidManifest.xml:2:1-60:12
+INJECTED from /Users/suxia/suxia-Cordova/LStoragePlugin/platforms/android/app/src/main/AndroidManifest.xml:2:1-60:12
+INJECTED from /Users/suxia/suxia-Cordova/LStoragePlugin/platforms/android/app/src/main/AndroidManifest.xml:2:1-60:12
+	package
+		ADDED from /Users/suxia/suxia-Cordova/LStoragePlugin/platforms/android/app/src/main/AndroidManifest.xml:3:5-39
+		INJECTED from /Users/suxia/suxia-Cordova/LStoragePlugin/platforms/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/suxia/suxia-Cordova/LStoragePlugin/platforms/android/app/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /Users/suxia/suxia-Cordova/LStoragePlugin/platforms/android/app/src/main/AndroidManifest.xml:6:5-32
+		INJECTED from /Users/suxia/suxia-Cordova/LStoragePlugin/platforms/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/suxia/suxia-Cordova/LStoragePlugin/platforms/android/app/src/main/AndroidManifest.xml
+	android:hardwareAccelerated
+		ADDED from /Users/suxia/suxia-Cordova/LStoragePlugin/platforms/android/app/src/main/AndroidManifest.xml:4:5-39
+	xmlns:android
+		ADDED from /Users/suxia/suxia-Cordova/LStoragePlugin/platforms/android/app/src/main/AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from /Users/suxia/suxia-Cordova/LStoragePlugin/platforms/android/app/src/main/AndroidManifest.xml:5:5-32
+		INJECTED from /Users/suxia/suxia-Cordova/LStoragePlugin/platforms/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/suxia/suxia-Cordova/LStoragePlugin/platforms/android/app/src/main/AndroidManifest.xml
+uses-sdk
+ADDED from /Users/suxia/suxia-Cordova/LStoragePlugin/platforms/android/app/src/main/AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support:design:26.1.0] /Users/suxia/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/1160c880966176ab9fd491764ea74533/AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:design:26.1.0] /Users/suxia/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/1160c880966176ab9fd491764ea74533/AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/suxia/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/27caf089bb11e2d8dd9dc779dd3d981f/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/suxia/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/27caf089bb11e2d8dd9dc779dd3d981f/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:transition:26.1.0] /Users/suxia/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/27c4c74c0bb0a23ed060bf14456f8342/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:26.1.0] /Users/suxia/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/27c4c74c0bb0a23ed060bf14456f8342/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:26.1.0] /Users/suxia/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/e69a16dfff33d48dc66ddbbcdfa0bb7d/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:26.1.0] /Users/suxia/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/e69a16dfff33d48dc66ddbbcdfa0bb7d/AndroidManifest.xml:21:5-23:54
+MERGED from [:CordovaLib] /Users/suxia/suxia-Cordova/LStoragePlugin/platforms/android/CordovaLib/build/intermediates/manifests/full/debug/AndroidManifest.xml:25:5-44
+MERGED from [:CordovaLib] /Users/suxia/suxia-Cordova/LStoragePlugin/platforms/android/CordovaLib/build/intermediates/manifests/full/debug/AndroidManifest.xml:25:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] /Users/suxia/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.0.aar/98534946ed85e0766573d9908ed10265/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] /Users/suxia/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.0.aar/98534946ed85e0766573d9908ed10265/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/suxia/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/074ded980d700cc35b0d045b4b20501c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/suxia/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/074ded980d700cc35b0d045b4b20501c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/suxia/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/f0c510901ac70376e6f05466e40953b8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/suxia/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/f0c510901ac70376e6f05466e40953b8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /Users/suxia/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/0e7768e5b27cbada063e33bf864ed77b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /Users/suxia/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/0e7768e5b27cbada063e33bf864ed77b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/suxia/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/6c8b77c4775068a4f1c05981f3db69ff/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/suxia/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/6c8b77c4775068a4f1c05981f3db69ff/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/suxia/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/9d7392d7b68a898e39bbdc7ab45df9c1/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/suxia/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/9d7392d7b68a898e39bbdc7ab45df9c1/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/suxia/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/fbc867e35ed6e90e598cd0d34a318c87/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/suxia/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/fbc867e35ed6e90e598cd0d34a318c87/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/suxia/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/4f411328395ac306fed45b8f3d8b173d/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/suxia/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/4f411328395ac306fed45b8f3d8b173d/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:26.1.0] /Users/suxia/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/8820c151cc4369bfa4708341733a83b7/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.1.0] /Users/suxia/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/8820c151cc4369bfa4708341733a83b7/AndroidManifest.xml:21:5-23:58
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/suxia/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/cbcd8b5aecbe7d096c94b76428c27ea8/AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/suxia/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/cbcd8b5aecbe7d096c94b76428c27ea8/AndroidManifest.xml:20:5-22:41
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:26.1.0] /Users/suxia/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/1160c880966176ab9fd491764ea74533/AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		ADDED from /Users/suxia/suxia-Cordova/LStoragePlugin/platforms/android/app/src/main/AndroidManifest.xml:10:9-38
+	android:minSdkVersion
+		ADDED from /Users/suxia/suxia-Cordova/LStoragePlugin/platforms/android/app/src/main/AndroidManifest.xml:9:9-35
+supports-screens
+ADDED from /Users/suxia/suxia-Cordova/LStoragePlugin/platforms/android/app/src/main/AndroidManifest.xml:12:5-18:40
+	android:largeScreens
+		ADDED from /Users/suxia/suxia-Cordova/LStoragePlugin/platforms/android/app/src/main/AndroidManifest.xml:14:9-36
+	android:smallScreens
+		ADDED from /Users/suxia/suxia-Cordova/LStoragePlugin/platforms/android/app/src/main/AndroidManifest.xml:17:9-36
+	android:normalScreens
+		ADDED from /Users/suxia/suxia-Cordova/LStoragePlugin/platforms/android/app/src/main/AndroidManifest.xml:15:9-37
+	android:xlargeScreens
+		ADDED from /Users/suxia/suxia-Cordova/LStoragePlugin/platforms/android/app/src/main/AndroidManifest.xml:18:9-37
+	android:resizeable
+		ADDED from /Users/suxia/suxia-Cordova/LStoragePlugin/platforms/android/app/src/main/AndroidManifest.xml:16:9-34
+	android:anyDensity
+		ADDED from /Users/suxia/suxia-Cordova/LStoragePlugin/platforms/android/app/src/main/AndroidManifest.xml:13:9-34
+uses-permission#android.permission.INTERNET
+ADDED from /Users/suxia/suxia-Cordova/LStoragePlugin/platforms/android/app/src/main/AndroidManifest.xml:20:5-67
+	android:name
+		ADDED from /Users/suxia/suxia-Cordova/LStoragePlugin/platforms/android/app/src/main/AndroidManifest.xml:20:22-64
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/suxia/suxia-Cordova/LStoragePlugin/platforms/android/app/src/main/AndroidManifest.xml:21:5-81
+	android:name
+		ADDED from /Users/suxia/suxia-Cordova/LStoragePlugin/platforms/android/app/src/main/AndroidManifest.xml:21:22-78
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from /Users/suxia/suxia-Cordova/LStoragePlugin/platforms/android/app/src/main/AndroidManifest.xml:22:5-75
+	android:name
+		ADDED from /Users/suxia/suxia-Cordova/LStoragePlugin/platforms/android/app/src/main/AndroidManifest.xml:22:22-72
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Users/suxia/suxia-Cordova/LStoragePlugin/platforms/android/app/src/main/AndroidManifest.xml:23:5-80
+	android:name
+		ADDED from /Users/suxia/suxia-Cordova/LStoragePlugin/platforms/android/app/src/main/AndroidManifest.xml:23:22-77
+application
+ADDED from /Users/suxia/suxia-Cordova/LStoragePlugin/platforms/android/app/src/main/AndroidManifest.xml:25:5-58:19
+MERGED from [com.android.support:design:26.1.0] /Users/suxia/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/1160c880966176ab9fd491764ea74533/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:design:26.1.0] /Users/suxia/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/1160c880966176ab9fd491764ea74533/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/suxia/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/27caf089bb11e2d8dd9dc779dd3d981f/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/suxia/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/27caf089bb11e2d8dd9dc779dd3d981f/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:transition:26.1.0] /Users/suxia/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/27c4c74c0bb0a23ed060bf14456f8342/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:transition:26.1.0] /Users/suxia/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/27c4c74c0bb0a23ed060bf14456f8342/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-v4:26.1.0] /Users/suxia/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/e69a16dfff33d48dc66ddbbcdfa0bb7d/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:26.1.0] /Users/suxia/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/e69a16dfff33d48dc66ddbbcdfa0bb7d/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] /Users/suxia/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.0.aar/98534946ed85e0766573d9908ed10265/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] /Users/suxia/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.0.aar/98534946ed85e0766573d9908ed10265/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/suxia/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/074ded980d700cc35b0d045b4b20501c/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/suxia/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/074ded980d700cc35b0d045b4b20501c/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/suxia/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/f0c510901ac70376e6f05466e40953b8/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/suxia/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/f0c510901ac70376e6f05466e40953b8/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /Users/suxia/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/0e7768e5b27cbada063e33bf864ed77b/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /Users/suxia/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/0e7768e5b27cbada063e33bf864ed77b/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/suxia/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/6c8b77c4775068a4f1c05981f3db69ff/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/suxia/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/6c8b77c4775068a4f1c05981f3db69ff/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/suxia/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/9d7392d7b68a898e39bbdc7ab45df9c1/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/suxia/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/9d7392d7b68a898e39bbdc7ab45df9c1/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/suxia/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/fbc867e35ed6e90e598cd0d34a318c87/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/suxia/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/fbc867e35ed6e90e598cd0d34a318c87/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/suxia/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/4f411328395ac306fed45b8f3d8b173d/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/suxia/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/4f411328395ac306fed45b8f3d8b173d/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] /Users/suxia/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/8820c151cc4369bfa4708341733a83b7/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] /Users/suxia/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/8820c151cc4369bfa4708341733a83b7/AndroidManifest.xml:25:5-29:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/suxia/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/cbcd8b5aecbe7d096c94b76428c27ea8/AndroidManifest.xml:24:5-28:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/suxia/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/cbcd8b5aecbe7d096c94b76428c27ea8/AndroidManifest.xml:24:5-28:19
+	android:supportsRtl
+		ADDED from /Users/suxia/suxia-Cordova/LStoragePlugin/platforms/android/app/src/main/AndroidManifest.xml:29:9-35
+	android:label
+		ADDED from /Users/suxia/suxia-Cordova/LStoragePlugin/platforms/android/app/src/main/AndroidManifest.xml:28:9-41
+	android:hardwareAccelerated
+		ADDED from /Users/suxia/suxia-Cordova/LStoragePlugin/platforms/android/app/src/main/AndroidManifest.xml:26:9-43
+	android:icon
+		ADDED from /Users/suxia/suxia-Cordova/LStoragePlugin/platforms/android/app/src/main/AndroidManifest.xml:27:9-36
+activity#suxia.com.LStoragePlugin.MainActivity
+ADDED from /Users/suxia/suxia-Cordova/LStoragePlugin/platforms/android/app/src/main/AndroidManifest.xml:30:9-42:20
+	android:label
+		ADDED from /Users/suxia/suxia-Cordova/LStoragePlugin/platforms/android/app/src/main/AndroidManifest.xml:33:13-50
+	android:launchMode
+		ADDED from /Users/suxia/suxia-Cordova/LStoragePlugin/platforms/android/app/src/main/AndroidManifest.xml:34:13-43
+	android:windowSoftInputMode
+		ADDED from /Users/suxia/suxia-Cordova/LStoragePlugin/platforms/android/app/src/main/AndroidManifest.xml:36:13-55
+	android:configChanges
+		ADDED from /Users/suxia/suxia-Cordova/LStoragePlugin/platforms/android/app/src/main/AndroidManifest.xml:32:13-90
+	android:theme
+		ADDED from /Users/suxia/suxia-Cordova/LStoragePlugin/platforms/android/app/src/main/AndroidManifest.xml:35:13-75
+	android:name
+		ADDED from /Users/suxia/suxia-Cordova/LStoragePlugin/platforms/android/app/src/main/AndroidManifest.xml:31:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/suxia/suxia-Cordova/LStoragePlugin/platforms/android/app/src/main/AndroidManifest.xml:37:13-41:29
+	android:label
+		ADDED from /Users/suxia/suxia-Cordova/LStoragePlugin/platforms/android/app/src/main/AndroidManifest.xml:37:28-65
+action#android.intent.action.MAIN
+ADDED from /Users/suxia/suxia-Cordova/LStoragePlugin/platforms/android/app/src/main/AndroidManifest.xml:38:17-69
+	android:name
+		ADDED from /Users/suxia/suxia-Cordova/LStoragePlugin/platforms/android/app/src/main/AndroidManifest.xml:38:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/suxia/suxia-Cordova/LStoragePlugin/platforms/android/app/src/main/AndroidManifest.xml:40:17-77
+	android:name
+		ADDED from /Users/suxia/suxia-Cordova/LStoragePlugin/platforms/android/app/src/main/AndroidManifest.xml:40:27-74
+activity#suxia.com.LStoragePlugin.browser
+ADDED from /Users/suxia/suxia-Cordova/LStoragePlugin/platforms/android/app/src/main/AndroidManifest.xml:54:9-57:68
+	android:label
+		ADDED from /Users/suxia/suxia-Cordova/LStoragePlugin/platforms/android/app/src/main/AndroidManifest.xml:56:13-59
+	android:theme
+		ADDED from /Users/suxia/suxia-Cordova/LStoragePlugin/platforms/android/app/src/main/AndroidManifest.xml:57:13-56
+	android:name
+		ADDED from /Users/suxia/suxia-Cordova/LStoragePlugin/platforms/android/app/src/main/AndroidManifest.xml:55:13-36
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from /Users/suxia/suxia-Cordova/LStoragePlugin/platforms/android/app/src/main/AndroidManifest.xml:49:13-51:65
+	android:resource
+		ADDED from /Users/suxia/suxia-Cordova/LStoragePlugin/platforms/android/app/src/main/AndroidManifest.xml:51:17-62
+	android:name
+		ADDED from /Users/suxia/suxia-Cordova/LStoragePlugin/platforms/android/app/src/main/AndroidManifest.xml:50:17-67
+meta-data#android.support.VERSION
+ADDED from [com.android.support:design:26.1.0] /Users/suxia/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/1160c880966176ab9fd491764ea74533/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/suxia/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/27caf089bb11e2d8dd9dc779dd3d981f/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/suxia/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/27caf089bb11e2d8dd9dc779dd3d981f/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:transition:26.1.0] /Users/suxia/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/27c4c74c0bb0a23ed060bf14456f8342/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:transition:26.1.0] /Users/suxia/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/27c4c74c0bb0a23ed060bf14456f8342/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-v4:26.1.0] /Users/suxia/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/e69a16dfff33d48dc66ddbbcdfa0bb7d/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-v4:26.1.0] /Users/suxia/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/e69a16dfff33d48dc66ddbbcdfa0bb7d/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/suxia/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/074ded980d700cc35b0d045b4b20501c/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/suxia/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/074ded980d700cc35b0d045b4b20501c/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/suxia/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/f0c510901ac70376e6f05466e40953b8/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/suxia/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/f0c510901ac70376e6f05466e40953b8/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /Users/suxia/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/0e7768e5b27cbada063e33bf864ed77b/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /Users/suxia/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/0e7768e5b27cbada063e33bf864ed77b/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/suxia/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/6c8b77c4775068a4f1c05981f3db69ff/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/suxia/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/6c8b77c4775068a4f1c05981f3db69ff/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/suxia/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/9d7392d7b68a898e39bbdc7ab45df9c1/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/suxia/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/9d7392d7b68a898e39bbdc7ab45df9c1/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/suxia/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/fbc867e35ed6e90e598cd0d34a318c87/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/suxia/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/fbc867e35ed6e90e598cd0d34a318c87/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/suxia/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/4f411328395ac306fed45b8f3d8b173d/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/suxia/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/4f411328395ac306fed45b8f3d8b173d/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] /Users/suxia/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/8820c151cc4369bfa4708341733a83b7/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] /Users/suxia/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/8820c151cc4369bfa4708341733a83b7/AndroidManifest.xml:26:9-28:38
+	android:value
+		ADDED from [com.android.support:design:26.1.0] /Users/suxia/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/1160c880966176ab9fd491764ea74533/AndroidManifest.xml:28:13-35
+	android:name
+		ADDED from [com.android.support:design:26.1.0] /Users/suxia/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/1160c880966176ab9fd491764ea74533/AndroidManifest.xml:27:13-51
+meta-data#android.arch.lifecycle.VERSION
+ADDED from [android.arch.lifecycle:runtime:1.0.0] /Users/suxia/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/cbcd8b5aecbe7d096c94b76428c27ea8/AndroidManifest.xml:25:9-27:47
+	android:value
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] /Users/suxia/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/cbcd8b5aecbe7d096c94b76428c27ea8/AndroidManifest.xml:27:13-44
+	android:name
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] /Users/suxia/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/cbcd8b5aecbe7d096c94b76428c27ea8/AndroidManifest.xml:26:13-58
