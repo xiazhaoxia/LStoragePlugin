@@ -27,12 +27,13 @@
         android:hardwareAccelerated="true"
         android:icon="@mipmap/icon"
         android:label="@string/app_name"
-        android:supportsRtl="true" >
+        android:supportsRtl="true"
+        android:testOnly="true" >
         <activity
             android:name="suxia.com.LStoragePlugin.MainActivity"
             android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale"
             android:label="@string/activity_name"
-            android:launchMode="singleTop"
+            android:launchMode="standard"
             android:theme="@android:style/Theme.DeviceDefault.NoActionBar"
             android:windowSoftInputMode="adjustResize" >
             <intent-filter android:label="@string/launcher_name" >
@@ -53,8 +54,9 @@
         </provider>
 
         <activity
-            android:name="suxia.com.LStoragePlugin.browser"
+            android:name="suxia.com.LStoragePlugin.browserActivity"
             android:label="@string/title_activity_browser"
+            android:launchMode="standard"
             android:theme="@style/AppTheme.NoActionBar" />
 
         <meta-data

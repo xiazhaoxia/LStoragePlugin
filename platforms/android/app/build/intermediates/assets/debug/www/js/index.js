@@ -41,8 +41,8 @@ var app = {
 //
 //        console.log('Received Event: ' + id);
         //window.location.href="http://www.baidu.com";
-        var dbname = "https_m.baidu.com_0.localstorage";
-
+       // var dbname = "https_m.baidu.com_0.localstorage";
+        var dbname="https_slc08utm.us.oracle.com_16690.localstorage";
        function getLocalStorageData(cb){
              cordova.plugin.lstorage.showdata({
                         name:dbname
@@ -55,6 +55,12 @@ var app = {
                     },function(e){
                         alert("failed")
                     });
+       }
+       function addUrlToHistory(url){
+            var _templ=`<li><em>${url}</em><a>Show LocalStorage</a></li>`;
+            $("#urlHistory").append(_templ);
+
+
        }
 
        function showLocalStorageData(rows){
@@ -83,16 +89,34 @@ var app = {
                  return false;
             });
        }
-       getLocalStorageData(showLocalStorageData);
+
 
        $("#btnGo").click(function(){
-            var _url=$("#url").val();
+
+            var _url=$("#url").val() || "https://slc08utm.us.oracle.com:16690/siebel/app/epharmam/enu" ;
             if(_url){
+                addUrlToHistory(_url);
                 cordova.plugin.lstorage.openUrl({
                     url:_url
+                },function(filename){
+
+                     alert(filename);
+                },function(){
                 });
             }
        });
+
+       $("#btnShow").click(function(){
+            getLocalStorageData(showLocalStorageData);
+       });
+
+       $(function(){
+            $("#urlHistory").on("click","a",function(e){
+                console.log($(this));
+                var url=$(this).prev("em").text();
+                //debugger;
+            });
+       })
 
 
     }

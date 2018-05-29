@@ -51,6 +51,33 @@
                 width: 25%;
 
             }
+            input{
+                height:40px;
+                font-size:24px;
+            }
+
+            .button{
+                width:150px;
+                margin：10px;
+            }
+
+            .col-2{
+                width:100%;
+            }
+
+            .col-2 li{
+                width:50%;
+            }
+
+            .col-2 em{
+                padding:10px;
+                margin：10px;
+            }
+
+            .col-2 a{
+                color:blue;
+                text-align:center;
+            }
         </style>
     </head>
     <body>
@@ -63,10 +90,16 @@
 
         <!--</div>-->
         <div id="container">
-            <input id="url" type="text"/>
-            <input type="button" value="Go" id="btnGo"/>
-        </div>
+            <input id="url" type="text" style="height:40px;width:100%"/>
 
+            <p>
+                <input type="button" value="Go" id="btnGo" class="button"/>
+                <input type="button" value="Show Data" id="btnShow" class="button">
+            </p>
+        </div>
+        <ul id="urlHistory" class="col-2">
+
+        </ul>
         <ul id="localstore">
 
         </ul>

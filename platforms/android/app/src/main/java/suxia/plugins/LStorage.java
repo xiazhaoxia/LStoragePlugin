@@ -12,6 +12,7 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 import org.apache.cordova.CallbackContext;
+import org.apache.cordova.CordovaDialogsHelper;
 import org.apache.cordova.CordovaPlugin;
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -22,23 +23,27 @@ import java.net.URL;
 import java.util.Base64;
 import java.util.HashMap;
 
+import suxia.com.LStoragePlugin.browserActivity;
+
 import suxia.com.LStoragePlugin.R;
+
+import static android.app.Activity.RESULT_CANCELED;
+import static android.app.Activity.RESULT_OK;
 
 public  class LStorage extends CordovaPlugin{
     private static final String LOG_TAG = "LStoragePlugin";
     static HashMap<String,SQLiteDatabase> dbMap=new HashMap<String,SQLiteDatabase>();
+    private CallbackContext callbackContext;
 
     public LStorage() {
 
     }
 
-    @Override
-    public boolean onOverrideUrlLoading(String url) {
-        return super.onOverrideUrlLoading(url);
-    }
+
 
     @Override
     public boolean execute(String action, JSONArray args, CallbackContext callbackContext) {
+        this.callbackContext=callbackContext;
 
         //String dbname=https_slc08utm.us.oracle.com_16690.localstorage;
 
@@ -64,10 +69,14 @@ public  class LStorage extends CordovaPlugin{
             }else if(action.equals("openUrl")){
                 String url=o.getString("url");
 
-                Intent intent=new Intent(Intent.ACTION_VIEW,Uri.parse(url));
-                cordova.getActivity().startActivity(intent);
-                return true;
+//                Intent intent=new Intent(Intent.ACTION_VIEW,Uri.parse(url));
+//                cordova.getActivity().startActivity(intent);
+                Intent intent=new Intent(cordova.getActivity(),browserActivity.class);
+                intent.putExtra("url",url);
+                cordova.getActivity().startActivityForResult(intent,1);
 
+
+                return true;
             }
 
             return super.execute(action, args, callbackContext);
@@ -225,17 +234,10 @@ public  class LStorage extends CordovaPlugin{
         super.onDestroy();
     }
 
-    private void sendJavascriptCB(String cb){
-        this.webView.sendJavascript(cb);
-    }
-
-    private void sendJavascriptToGuiThread(final String cb){
-        final LStorage ls=this;
-        this.cordova.getActivity().runOnUiThread(new Runnable() {
-            @Override
-            public void run() {
-                ls.webView.sendJavascript(cb);
-            }
-        });
+    @Override
+    public void onActivityResult(int requestCode, int resultCode, Intent intent) {
+        if (resultCode == RESULT_OK) {
+            Log.i("URL", requestCode + "");
+        }
     }
 }
